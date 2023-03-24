@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #eee;
+        }
+
+        input[id='task'] {
+            margin-top: 60px;
+            width: 400px;
+            height: 30px;
+            border-radius: 40px;
+            padding: 10px;
+            font-size: 15px;
+            border: 1px solid #222;
+        }
+        .button {
+            font-size: 18px;
+            border-radius: 15px;
+            border: none;
+            background-color:white;
+            color: #3f3434;
+            padding: 10px;
+        }
+
+        .butt {
+            font-size: 15px;
+            border-radius: 10px;
+            padding: 10px;
+            border: 1px solid #3f3434;
+
+        }
+        .button:hover {
+            background-color: rgb(214, 214, 136);
+        }
+        .tas {
+            margin-left: 430px;
+        }
+        .emp {
+            width: 500px;
+            height: 30px;
+            border-radius: 40px;
+            padding: 10px;
+            font-size: 20px;
+            margin-top: 10px;
+            margin-left: 400px;
+            background-color: whitesmoke;
+            list-style: none;
+        }
+
+        .done {
+            background-color: green;
+        }
+        .style{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="tas"><input id="task" placeholder="Add Your Task Here" type="text">
+    <button class="button" onclick="submit()"> Add</button>
+    </div>
+    <div class="empty"></div>
+    <!-- <div class="testfile"></div> -->
+    <script src="main.js"></script>
+</body>
+</html>
